@@ -1,0 +1,204 @@
+html, body{
+    height:100%;
+}
+
+.menu-button{
+    position:relative;
+    height:33%;
+    width:100%;
+    border:solid;
+    text-align:center;
+    overflow:hidden;
+}
+
+.menu-button img{
+    
+    max-height:65%;
+    max-width:65%;
+    vertical-align:middle;
+    position:relative;
+}
+
+.button-text{
+    position:absolute;
+    font-weight:700;
+    font-size:100px;
+    font-family: "Calisto MT", "Bookman Old Style", Bookman, "Goudy Old Style", Garamond, "Hoefler Text", "Bitstream Charter", Georgia, serif;
+    margin:0 0;
+    padding:0 0;
+    z-index:10;
+}
+
+.content{
+    width:100%%;
+    height:100%;
+    border:solid;
+    text-align:center;
+    background-image:url("../img/old_moon.png");
+}
+
+.content img{
+    max-height:90%;
+    max-width:100%;
+}
+
+.center-helper{
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+}
+
+.container-fluid{
+    height:100%;
+    width:100%;
+}
+
+.screen{
+    position:absolute;
+    color:#00FF00;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    background-color:#303030;
+    font-size:35px;
+    padding: 20px 30px;
+    /*font-family: 'Orbitron', sans-serif !important;*/
+    /*font-family: 'Lato', sans-serif;*/
+    font-family: 'Iceland', cursive;
+    text-align:left;
+}
+
+.projects-background{
+    position:relative;
+    width:100%%;
+    height:100%;
+    top:-200%;
+    border:solid;
+    text-align:center;
+    vertical-align:middle;
+    background-image:url("../img/black-trans-bg.png");
+    display:inline-block;
+}
+
+.project{
+    position:relative;
+    width:35%;
+    height:42%;
+    margin:2% 2%;
+    background-color:#282828;
+    display:inline-block;
+    -webkit-box-shadow: 0px 0px 47px 0px rgba(250,250,250,1);
+    -moz-box-shadow: 0px 0px 47px 0px rgba(250,250,250,1);
+    box-shadow: 0px 0px 47px 0px rgba(250,250,250,1);
+}
+
+.project div{
+    position:absolute;
+    top:0;
+    left:0;
+    height:100%;
+    width:100%;
+    vertical-align:middle;
+    background-color:black;
+    opacity:0;
+}
+
+.project h1{
+    position:relative;
+    top:20%;
+    color:white;
+    font-family: 'Lato', sans-serif;
+}
+
+.project img{
+    max-width:100%;
+    max-height:100%;
+}
+
+.hire-background{
+    position:relative;
+    width:100%%;
+    height:100%;
+    top:-300%;
+    border:solid;
+    text-align:center;
+    background-image:url("../img/black-trans-bg.png");
+}
+
+.contact-background{
+    position:relative;
+    width:100%%;
+    height:100%;
+    top:-400%;
+    border:solid;
+    text-align:center;
+    background-image:url("../img/black-trans-bg.png");
+}
+
+.column{
+    width:40%;
+    height:100%;
+    margin:0 0;
+    padding:30px 40px;
+    display:inline-block;
+    vertical-align:top !important;
+    text-align:left !important;
+    font-family: 'Lato', sans-serif;
+}
+
+.column h1{
+    position:relative;
+    font-size:30px;
+    color:white;
+    border-bottom:solid;
+    font-weight:700;
+    border-color:#d8d8d8;
+}
+
+.column h2{
+    position:relative;
+    font-size:25px;
+    color:#d8d8d8;
+}
+
+.column h2 em{
+    color:#C1E041;
+    font-style:normal;
+}
+
+ .change-direction {
+      unicode-bidi: bidi-override;
+      direction: rtl;
+      display:inline;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+ }
+
+.contact-form{
+    color:white;
+    padding:0 20%;
+    vertical-align:middle;
+    height:100%;
+}
+
+.typed-cursor{
+    display:none;
+}
+
+/*Change cursor to hand for all interactive elements*/
+.menu-button:hover{
+    cursor:pointer;
+    cursor:hand;
+}
+
+.project:hover{
+    cursor:pointer;
+    cursor:hand;
+}
+
+
+
