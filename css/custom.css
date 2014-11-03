@@ -108,6 +108,7 @@ html, body{
     font-family: 'Lato', sans-serif;
     vertical-align:middle;
     display:table-cell;
+    opacity:0;
     filter: alpha(opacity = 0);
 }
 
