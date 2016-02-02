@@ -1,169 +1,88 @@
-<!DOCTYPE HTML>
-<html lang="en"><head>
-<meta charset="utf-8">
-<!-- <meta http-equiv="X-UA-Compatible" content="IE=edge"> -->
-<meta name="viewport" content="width=device-width, initial-scale=1">
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+		<link rel="stylesheet" type="text/css" href="index.css">
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Jeremy Tucker's Homepage</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<title>Jeremy Tucker Design</title>
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+    </head>
+    <body>
+	
+	<div class="sidebar">
+		<span class='link meLink'>Me</span>
+		<span class='link mathLink'>Math</span>
+		<span class='link webLink'>Web</span>
+		<span class='link dataLink'>Data</span>
+		<span class='link miscLink'>Misc</span>
+		<span class='link contactLink'>Contact</span>
+	</div>
 
-<!-- Bootstrap core CSS -->
-<link href="css/bootstrap.min.css" rel="stylesheet">
-<link href="css/custom.css" rel="stylesheet">
-<script src="lib/jquery.js"></script>
-<script src="lib/bootstrap.min.js"></script>
-<script src="lib/custom.js"></script>
-<script src="lib/placeholder.js"></script>
-<link href='http://fonts.googleapis.com/css?family=Lato|Oswald' rel='stylesheet' type='text/css'>
+	<div class="main">
+		<div class="me window">
+			<h1 class="header">Jeremy Tucker</h1>
+			Budding data scientist with a background in web development. Proficient in most major modern data-related libraries related to scraping, wrangling, prediction, and visualization. Capable of working independently on a number of web platforms and frameworks. I love working with people that are passionate about their projects.
+		</div>
+		<div class="math window"></div>
+		<div class="web window"></div>
+		<div class="data window"></div>
+		<div class="misc window"></div>
+		<div class="contact window">
+			<form role="form" action="http://formspree.io/tuckerjeremyw@gmail.com" method="post">
+				<div class="">
+					<p>
+						<input type="email" class="" placeholder="Email" name="_replyto">
+					</p>
+				</div>
+				<div class="">
+					<p>
+						<input type="text" class="" placeholder="Name" name="Name">
+					</p>
+				</div>
+				<div class="">
+					<p>
+						<textarea class="" rows="6" placeholder="Message" name="Comments"></textarea>
+					</p>
+				</div>
+				<button type="submit" value="Send" class="contactButton">SEND</button>
+			</form>
+		</div>
+	</div>
 
-<!--[if lt IE 9]>
-  <script type="text/javascript" src="lib/html5shiv.js"></script>
-  <script type="text/javascript" src="lib/respond.js"></script>
-  <![endif]-->
+	<div class="work">
+		<div class="mathWork workWindow">
+			<p>My background is in physics and computational mathematics, and I have undergrad research experience in astrophysics and applied physics</p>
+			<p>I've done regression analysis for Kickfurther to help them predict the success of potential offers that go through their site</p>
+			<a data-tooltip='1'><img data-tooltip='1' src="img/education.jpg" alt=""></a>
+			<a data-tooltip='2' href="http://www.kickfurther.com"><img data-tooltip='2' src="img/kfRegression.jpg" alt=""></a>
+		</div>
+		<div class="webWork workWindow">
+			<p><br />A simple static site specifically designed for a food truck company that owns two trucks</p>
+			<p><br />A portfolio site for French photographer and videographer Arnaud Fournier</p>
+			<a data-tooltip='1' href="http://heypbandj.com"><img data-tooltip='1' src="img/meatball.jpg" alt=""></a>
+			<a data-tooltip='2' href="http://www.kankrela.com"><img data-tooltip='2' style='border:solid; border-width: 2px; border-color:white;' src="img/arnaud.jpg" alt=""></a>
+		</div>
+		<div class="dataWork workWindow">
+			<p>FoodHelix aggregates recipes and finds common links between ingredients to help chefs find flavor pairings</p>
+			<p>I built Kickfurther's data visualization backend to help their users gauge profitability of investment offers</p>
+			<a data-tooltip='1' href="http://www.foodhelix.com"><img data-tooltip='1' src="img/foodhelix.jpg" alt=""></a>
+			<a data-tooltip='2' href="http://www.kickfurther.com"><img data-tooltip='2' src="img/kfGraph.jpg" alt=""></a>
+		</div>
+		<div class="miscWork workWindow">
+<!-- 			<img src="img/blank.png" alt="">
+			<img src="img/blank.png" alt=""> -->
+		</div>
+	</div>
 
+    </body>
 
-</head>
-
-<body>
-
-  <div class="pageWrapper">
-
-    <section class="header">
-      <div class="container-fluid">
-        <div class="headerWrapper">
-          <div class="headerContent">
-            <h1>Jeremy Tucker</h1>
-            <img src="img/homepage.png" class="portrait" alt="">
-            <h2>Full-stack Web Developer</h2>
-            <span class="socialMediaIcons">
-              <a href="https://twitter.com/JerWTucker"><img src="img/Twitter.png" alt=""></a>
-              <a href="http://github.com/jwtucker"><img src="img/Github.png" alt=""></a>
-            </span>
-          </div>      
-          <div class="headerBackground">
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section class="bio">
-      <div class="bioWrapper container-fluid">
-        <div class="row">
-          <div class="col-lg-3"></div>
-          <div class="col-lg-3 bioColumn">
-            <span class="heading">
-              <h1>Biography<em>1</em></h1>
-            </span>
-            <br>
-            <p>Designer with a strong background in math, physics, and computer science. Interested in full-stack web design and development. Enjoys learning new technologies. Always wants to work with passionate people.</p>
-            <p>Loves cooking, good food, and good beer. Amateur cat-herder. Terrible singer.</p>
-          </div>
-          <div class="col-lg-3 bioColumn">
-            <span class="heading">
-              <h1>Philosophy<em>2</em></h1>
-            </span>
-            <br>
-            <p>I design for function before form. Collaborating with my clients to meet their vision is always my priority. Responsive, mobile-compatible websites are a given. There's always room for improvement.</p>
-            <p>I'm proficient with Bootstrap, Node, and Angular. I create everything from simple one-page sites to full e-commerce sites.</p>
-          </div>
-          <div class="col-lg-3"></div>
-        </div>
-      </div>
-    </section>
-
-    <section class="content">
-      <div class="container-fluid" style="height:100%;">
-        <div class="contentWrapper">
-          <span class="contentText">
-            <h1>Above all, I create websites with usability as my focus.</h1>
-          </span>     
-          <div class="contentBackground">
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section class="portfolio">
-      <div class="portfolioWrapper container-fluid">
-        <div class="row" style="margin-bottom:30px;">
-          <div class="col-lg-3"></div>
-          <div class="col-lg-6">
-            <span class="heading">
-              <h1>Portfolio<em>3</em></h1>
-            </span>
-          </div>
-          <div class="col-lg-3"></div>
-        </div>
-        <div class="row">
-          <div class="col-lg-3"></div>
-          <div class="col-lg-2">
-            <div class="portfolioImageWrapper">
-              <a href="http://www.foodhelix.com">
-                <img src="img/foodhelix.jpg" alt="">
-                <div class="imageOverlay">
-                  <h1>FoodHelix</h1>
-                </div>
-              </a>
-            </div>
-          </div>
-          <div class="col-lg-2">
-            <div class="portfolioImageWrapper">
-              <a href="http://www.kankrela.com">
-                <img src="img/arnaud.jpg" alt="">
-                <div class="imageOverlay">
-                  <h1>Urbex Photographer</h1>
-                </div>
-              </div>
-            </a>
-          </div>
-          <div class="col-lg-2">
-            <div class="portfolioImageWrapper">
-              <a href="http://eatatmeatball.com">
-                <img src="img/meatball.jpg" alt="">
-                <div class="imageOverlay">
-                  <h1>Dual Food Trucks</h1>
-                </div>
-              </a>
-            </div>
-          </div>
-          <div class="col-lg-3"></div>
-        </div>
-      </div>
-    </section>
-
-    <section class="contact">
-      <div class="contactWrapper container-fluid">
-        <div class="col-lg-3"></div>
-        <div class="col-lg-6">
-          <span class="heading" style="margin-bottom:30px;">
-            <h1>Contact<em>4</em></h1>
-          </span>
-          <form role="form" action="http://formspree.io/tuckerjeremyw@gmail.com" method="post">
-            <div class="">
-              <p>
-                <input type="email" class="" placeholder="Email" id="contact-us-email" name="_replyto">
-              </p>
-            </div>
-            <div class="">
-              <p>
-                <input type="text" class="" placeholder="Name" id="contact-us-name" name="Name">
-              </p>
-            </div>
-            <div class="">
-              <p>
-                <textarea class="" rows="1" placeholder="Message" id="contact-us-text" name="Comments"></textarea>
-              </p>
-            </div>
-            <button type="submit" value="Send" class="btn-lg contactButton">Submit</button>
-          </form>
-        </div>
-        <div class="col-lg-3"></div>
-      </div>
-    </section>
-
-  </div>
-
-</body>
-
+    <script type="text/javascript" src='bower_components/jquery/dist/jquery.min.js'></script>
+    <script type="text/javascript" src='bower_components/d3/d3.min.js'></script>
+    <script type="text/javascript" src='index.js'></script>
 </html>
-
-
