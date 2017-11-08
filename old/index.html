@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+		<link rel="stylesheet" type="text/css" href="index.css">
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Jeremy Tucker's Homepage</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+    </head>
+    <body>
+	
+	<div class="sidebar">
+		<span class='link meLink'>Me</span>
+		<span class='link mathLink'>Math</span>
+		<span class='link webLink'>Web</span>
+		<span class='link dataLink'>Data</span>
+		<span class='link miscLink'>Misc</span>
+		<span class='link contactLink'>Contact</span>
+	</div>
+
+	<div class="main">
+		<div class="me window">
+			<h1 class="header">Jeremy Tucker</h1>
+			Budding data scientist with a background in web development. Proficient in most major modern data-related libraries related to scraping, wrangling, prediction, and visualization. Capable of working independently on a number of web platforms and frameworks. I love working with people that are passionate about their projects.
+		</div>
+		<div class="math window"></div>
+		<div class="web window"></div>
+		<div class="data window"></div>
+		<div class="misc window"></div>
+		<div class="contact window">
+			<form role="form" action="http://formspree.io/tuckerjeremyw@gmail.com" method="post">
+				<div class="">
+					<p>
+						<input type="email" class="" placeholder="Email" name="_replyto">
+					</p>
+				</div>
+				<div class="">
+					<p>
+						<input type="text" class="" placeholder="Name" name="Name">
+					</p>
+				</div>
+				<div class="">
+					<p>
+						<textarea class="" rows="6" placeholder="Message" name="Comments"></textarea>
+					</p>
+				</div>
+				<button type="submit" value="Send" class="contactButton">SEND</button>
+			</form>
+		</div>
+	</div>
+
+	<div class="work">
+		<div class="mathWork workWindow">
+			<p>My background is in physics and computational mathematics, and I have undergrad research experience in astrophysics and applied physics</p>
+			<p>I've done regression analysis for Kickfurther to help them predict the success of potential offers that go through their site</p>
+			<a data-tooltip='1'><img data-tooltip='1' src="img/education.jpg" alt=""></a>
+			<a data-tooltip='2' href="http://www.kickfurther.com"><img data-tooltip='2' src="img/kfRegression.jpg" alt=""></a>
+		</div>
+		<div class="webWork workWindow">
+			<p><br />A simple static site specifically designed for a food truck company that owns two trucks</p>
+			<p><br />A portfolio site for French photographer and videographer Arnaud Fournier</p>
+			<a data-tooltip='1' href="http://heypbandj.com"><img data-tooltip='1' src="img/meatball.jpg" alt=""></a>
+			<a data-tooltip='2' href="http://www.kankrela.com"><img data-tooltip='2' style='border:solid; border-width: 2px; border-color:white;' src="img/arnaud.jpg" alt=""></a>
+		</div>
+		<div class="dataWork workWindow">
+			<p>FoodHelix aggregates recipes and finds common links between ingredients to help chefs find flavor pairings</p>
+			<p>I built Kickfurther's data visualization backend to help their users gauge profitability of investment offers</p>
+			<a data-tooltip='1' href="http://www.foodhelix.com"><img data-tooltip='1' src="img/foodhelix.jpg" alt=""></a>
+			<a data-tooltip='2' href="http://www.kickfurther.com"><img data-tooltip='2' src="img/kfGraph.jpg" alt=""></a>
+		</div>
+		<div class="miscWork workWindow">
+<!-- 			<img src="img/blank.png" alt="">
+			<img src="img/blank.png" alt=""> -->
+		</div>
+	</div>
+
+    </body>
+
+    <script type="text/javascript" src='bower_components/jquery/dist/jquery.min.js'></script>
+    <script type="text/javascript" src='bower_components/d3/d3.min.js'></script>
+    <script type="text/javascript" src='index.js'></script>
+</html>

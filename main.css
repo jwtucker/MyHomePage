@@ -1,0 +1,84 @@
+body{
+    background-image: url(bg.png);
+}
+
+.section-wrapper{
+    cursor:pointer;
+}
+
+h3{
+    font-family:'Lato', sans-serif;
+    font-variant:small-caps;
+    text-align: center;
+    font-size:28px;
+    color:#cccccc;
+}
+
+h4{
+    font-family:'Lato', sans-serif;
+    font-variant:small-caps;
+    text-align: right;
+    border-bottom: solid 1px #cccccc;
+    color:#00B16A;
+}
+
+p{
+    font-family: Courier New,Courier,Lucida Sans Typewriter,Lucida Typewriter,monospace;
+    color:#bbbbbb;
+}
+
+
+.page-wrapper{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 600px;
+}
+
+form{
+    width:100%;
+}
+
+input,textarea{
+    font-family: Courier New,Courier,Lucida Sans Typewriter,Lucida Typewriter,monospace;
+    width:100%;
+    padding:10px;
+    background-color:black;
+    border:solid;
+    border-color:#888;
+    color:white;
+    border-width:1px;
+    margin-bottom: 10px;
+}
+
+
+::-webkit-input-placeholder {
+   color:white;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+   color:white;  
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+   color:white;  
+}
+
+:-ms-input-placeholder {  
+   color:white;  
+}
+
+.contact-button{
+    font-family:'Lato', sans-serif;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100px;
+    height: 30px;
+    background-color:black;
+    border:solid;
+    border-color:#888;
+    color:white;
+    border-width:1px;
+    font-weight:700;
+}

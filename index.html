@@ -1,39 +1,64 @@
-<!DOCTYPE html>
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+<!doctype html>
+<html class="no-js" lang="">
     <head>
-		<link rel="stylesheet" type="text/css" href="index.css">
         <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Jeremy Tucker's Homepage</title>
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title></title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- Place favicon.ico in the root directory -->
+        <link rel="stylesheet" href="main.css">
+        <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/base-min.css">
+        <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/grids-min.css">
+		<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
 
-        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
     </head>
     <body>
-	
-	<div class="sidebar">
-		<span class='link meLink'>Me</span>
-		<span class='link mathLink'>Math</span>
-		<span class='link webLink'>Web</span>
-		<span class='link dataLink'>Data</span>
-		<span class='link miscLink'>Misc</span>
-		<span class='link contactLink'>Contact</span>
-	</div>
+        <!--[if lte IE 9]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+        <![endif]-->
 
-	<div class="main">
-		<div class="me window">
-			<h1 class="header">Jeremy Tucker</h1>
-			Budding data scientist with a background in web development. Proficient in most major modern data-related libraries related to scraping, wrangling, prediction, and visualization. Capable of working independently on a number of web platforms and frameworks. I love working with people that are passionate about their projects.
-		</div>
-		<div class="math window"></div>
-		<div class="web window"></div>
-		<div class="data window"></div>
-		<div class="misc window"></div>
-		<div class="contact window">
+		<div class="page-wrapper">
+			
+			<br><br><br>
+	        <h3>Me</h3>
+	        <p>Intermediate back-end and data guy with a strong background in math. Comfortable with everything data related from scraping to analysis to data science. Good enough with devops and scaling to build prototypes solo but plays well with others. Prioritizes working on interesting projects and learning through work.</p>
+			<br><br><br>
+
+	        <h3>Recent Projects</h3>
+	        <div class="section-wrapper" onclick="route_to('http://yeschef.tech')">
+		        <h4>YesChef.tech</h4>
+		        <p>Built solo. Currently in alpha testing. One page webapp that allows chefs to find ingredient pairings, manage recipes, and manage prep lists for their restaurant. Built with Django and Riot.js.</p>
+	        </div>
+	        <div class="section-wrapper" onclick="route_to('http://tomis.tech')">
+		        <h4>TOMIS</h4>
+		        <p>Tour operator software. Long term contract position involving working with Google Analytics and social media APIs with light data science to develop features for their alpha release. Lots of Django endpoints.</p>
+	        </div>
+	        <div class="section-wrapper" onclick="route_to('http://kickfurther.com')">
+		        <h4>Kickfurther</h4>
+		        <p>Crowd-funded investment software. Long term contract position. Built their internal statistics API from the ground up. Created a recommendation engine for sales team to find leads. Lots of Laravel endpoints.</p>
+	        </div>
+	        <br><br><br>
+
+			<h3>Skills</h3>
+			<h4>Back-end</h4>
+			<div class="back-end-graph"></div>
+			<br><br>
+			<h4>Front-end</h4>
+			<div class="front-end-graph"></div>
+			<br><br>
+			<h4>Data</h4>
+			<div class="data-graph"></div>
+			<br><br>
+			<h4>Math</h4>
+			<div class="math-graph"></div>
+			<br><br>
+			<h4>Misc</h4>
+			<div class="misc-graph"></div>
+			<br><br>
+
+			<h3>Contact</h3>
 			<form role="form" action="http://formspree.io/tuckerjeremyw@gmail.com" method="post">
 				<div class="">
 					<p>
@@ -50,39 +75,13 @@
 						<textarea class="" rows="6" placeholder="Message" name="Comments"></textarea>
 					</p>
 				</div>
-				<button type="submit" value="Send" class="contactButton">SEND</button>
+				<button type="submit" value="Send" class="contact-button">SEND</button>
 			</form>
-		</div>
-	</div>
 
-	<div class="work">
-		<div class="mathWork workWindow">
-			<p>My background is in physics and computational mathematics, and I have undergrad research experience in astrophysics and applied physics</p>
-			<p>I've done regression analysis for Kickfurther to help them predict the success of potential offers that go through their site</p>
-			<a data-tooltip='1'><img data-tooltip='1' src="img/education.jpg" alt=""></a>
-			<a data-tooltip='2' href="http://www.kickfurther.com"><img data-tooltip='2' src="img/kfRegression.jpg" alt=""></a>
 		</div>
-		<div class="webWork workWindow">
-			<p><br />A simple static site specifically designed for a food truck company that owns two trucks</p>
-			<p><br />A portfolio site for French photographer and videographer Arnaud Fournier</p>
-			<a data-tooltip='1' href="http://heypbandj.com"><img data-tooltip='1' src="img/meatball.jpg" alt=""></a>
-			<a data-tooltip='2' href="http://www.kankrela.com"><img data-tooltip='2' style='border:solid; border-width: 2px; border-color:white;' src="img/arnaud.jpg" alt=""></a>
-		</div>
-		<div class="dataWork workWindow">
-			<p>FoodHelix aggregates recipes and finds common links between ingredients to help chefs find flavor pairings</p>
-			<p>I built Kickfurther's data visualization backend to help their users gauge profitability of investment offers</p>
-			<a data-tooltip='1' href="http://www.foodhelix.com"><img data-tooltip='1' src="img/foodhelix.jpg" alt=""></a>
-			<a data-tooltip='2' href="http://www.kickfurther.com"><img data-tooltip='2' src="img/kfGraph.jpg" alt=""></a>
-		</div>
-		<div class="miscWork workWindow">
-<!-- 			<img src="img/blank.png" alt="">
-			<img src="img/blank.png" alt=""> -->
-		</div>
-	</div>
 
+        <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/4.11.0/d3.js"></script>
+        <script src="main.js"></script>
     </body>
-
-    <script type="text/javascript" src='bower_components/jquery/dist/jquery.min.js'></script>
-    <script type="text/javascript" src='bower_components/d3/d3.min.js'></script>
-    <script type="text/javascript" src='index.js'></script>
 </html>
